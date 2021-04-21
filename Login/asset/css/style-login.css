@@ -1,0 +1,199 @@
+body {
+  font-family: "Karla", sans-serif;
+  background-color: #006D6D;
+  min-height: 100vh; }
+  @media (max-width: 767px) {
+    body {
+      padding-top: 16px;
+      padding-bottom: 16px; 
+} }
+
+.brand-wrapper {
+  padding-top: 7px;
+  padding-bottom: 8px;
+  margin-bottom: 7px; 
+}
+
+
+.brand-wrapper .logo {
+    height: 70px; 
+
+  }
+
+.login-wrapper {
+  width: 400px;
+  max-width: 100%;
+  padding: 34px;
+  border-radius: 8px;
+  border: 0;
+  background-color: #006D6D;
+  transition: transform 1s;
+  ;
+}
+
+
+  .login-wrapper .form-control {
+    border: none;
+    padding: 16px 20px;
+    border-radius: 0;
+    min-height: 48px;
+    font-size: 14px;
+    font-weight: normal;
+    background-color: transparent; }
+    .login-wrapper .form-control::-webkit-input-placeholder {
+      color: white; }
+    .login-wrapper .form-control::-moz-placeholder {
+      color: white; }
+    .login-wrapper .form-control:-ms-input-placeholder {
+      color: white; }
+    .login-wrapper .form-control::-ms-input-placeholder {
+      color: white; }
+    .login-wrapper .form-control::placeholder {
+      color: white; }
+  .login-wrapper .input-group {
+    margin-bottom: 18px;
+    border-radius: 24px;
+    border: solid 1px #f5f5f5;
+box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    transition: transform .3s; 
+  }
+
+  .login-wrapper .input-group:hover{
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+  }
+  
+
+    .login-wrapper .input-group .input-group-prepend {
+      margin-right: 0; }
+      .login-wrapper .input-group .input-group-prepend .input-group-text {
+        border: 0;
+        background-color: transparent;
+        padding-left: 27px;
+        color: #fff; }
+      .login-wrapper .input-group .input-group-prepend + .form-control {
+        padding-left: 5px;
+        border-top-right-radius: 24px;
+        border-bottom-right-radius: 24px; }
+
+  .login-wrapper .login-btn {
+    padding: 13px 20px;
+    background-color: #12db91;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 32px;
+    transition: transform .3s;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+
+    .login-wrapper .login-btn:hover {
+      background-color: #d66320;
+      border-radius: 30px;
+      box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+      color: #fff;
+      transform: scale(1.1);
+      }
+  .login-wrapper-footer-text {
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    margin-bottom: 32px; }
+
+  .text-link{
+    color: #12db91;
+    transition: .10s;
+  }
+
+  .text-link:hover{
+    color: #d66320;
+    font-size: 20px;
+    }
+
+
+.login-img {
+  width: 100%;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: left;
+     object-position: left; 
+   }
+
+
+.garis {
+    position: relative;
+    top: 50%;
+    width: 24em;
+    margin-left: 20px;
+    border-right: 4px solid #12db91;
+    font-size: 150%;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+
+}
+
+.animasi-ketikan {
+    animation: ketikan 4s steps(20) 1s 1 normal both,
+        kedip 500ms steps(20) infinite reverse;
+    color: black;
+    font-family: "Karla", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #12db91;
+
+
+}
+
+.animasi-ketikan-judul {
+    animation: ketikan-dua 4s steps(20) 1s 1 normal both,
+        kedip 500ms steps(20) infinite reverse;
+    color: black;
+    font-family: "Karla", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #12db91;
+
+
+}
+
+@keyframes ketikan-dua {
+    from {
+        width: 0;
+    } to {
+        width: 15.5em;
+    }
+}
+
+
+@keyframes ketikan {
+    from {
+        width: 0;
+    } to {
+        width: 22.5em;
+    }
+}
+
+@keyframes kedip {
+    from {
+        border-right-color: rgba(255, 255, 255, 0.75);
+    } to {
+        border-right-color: transparent;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+

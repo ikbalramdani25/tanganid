@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+
+  background-color: #006D6D;
+  
+}
+
+.containerku-custom{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  z-index: 1;
+  max-width: 1200px;
+
+}
+
+.containerku-custom .kartu{
+  position: relative;
+  width: 300px;
+  height: 400px;
+  margin: 20px;
+  display: flex;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-filter:blur(5px);
+  padding: 5px;
+
+}
+
+.containerku-custom .kartu .isi{
+  padding: 20px;
+  text-align: center;
+}
+
+
+.containerku-custom .kartu .isi h3{
+  font-size: 1.8em;
+  color: white;
+  z-index: 1;
+  font-family: 'Poppins', sans-serif;
+  text-shadow:  2px 2px 6px black;);
+  margin-bottom: 20px;
+}
+
+.containerku-custom .kartu .isi p{
+  font-size: 1em;
+  font-weight: 300;
+  color: white;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  margin-top: -10px;
+}
+
+.containerku-custom .kartu .isi a{
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  margin-top: 20px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform .5s;
+}
+
+
+.containerku-custom .kartu .isi a:hover{
+  transform: scale(1.1);
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  background-color: #3F9A74;
+  color: white;
+}
+
+
+
+.custom-search{
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  transition: transform .3s;
+}
+
+ .custom-search:hover{
+  transform: scale(1.01);
+ }
+
+.custom-button{
+  box-shadow: 0 25px 38px -20px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  transition: transform .3s;
+  
+}
+
+ .custom-button:hover{
+  transform: scale(1.1);
+
+ }
+
+<style type="text/css">
+    .custom-mail{
+        float: right;
+        box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+        transition: transform .5s;
+        margin-top: -20px;
+    }
+
+    .custom-mail:hover{
+        transform: scale(1.1);
+    }
+</style>
+
